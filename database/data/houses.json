@@ -1,0 +1,10 @@
+[
+  {"id":1,"house_number":"A1","address":"Blok A No. 1","status":"occupied"},
+  {"id":2,"house_number":"A2","address":"Blok A No. 2","status":"occupied"},
+  {"id":3,"house_number":"A3","address":"Blok A No. 3","status":"occupied"},
+  {"id":4,"house_number":"A4","address":"Blok A No. 4","status":"vacant"},
+  {"id":5,"house_number":"A5","address":"Blok A No. 5","status":"occupied"},
+  {"id":6,"house_number":"A6","address":"Blok A No. 6","status":"occupied"},
+  {"id":7,"house_number":"A7","address":"Blok A No. 7","status":"vacant"},
+  {"id":8,"house_number":"A8","address":"Blok A No. 8","status":"occupied"}
+]

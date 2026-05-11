@@ -1,0 +1,29 @@
+[
+  {"house_id":1,"full_name":"Budi Santoso","status":"permanent","phone_number":"081234567801","is_married":true,"is_active_resident":true,"move_in_date":"2023-03-15","move_out_date":null,"is_head_of_family":true},
+  {"house_id":1,"full_name":"Siti Rahayu","status":"permanent","phone_number":"081234567802","is_married":true,"is_active_resident":true,"move_in_date":"2023-03-15","move_out_date":null},
+  {"house_id":1,"full_name":"Andi Santoso","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":true,"move_in_date":"2023-03-15","move_out_date":null},
+
+  {"house_id":2,"full_name":"Rahmat Hidayat","status":"permanent","phone_number":"081345678901","is_married":true,"is_active_resident":true,"move_in_date":"2022-06-01","move_out_date":null,"is_head_of_family":true},
+  {"house_id":2,"full_name":"Dewi Lestari","status":"permanent","phone_number":"081345678902","is_married":true,"is_active_resident":true,"move_in_date":"2022-06-01","move_out_date":null},
+  {"house_id":2,"full_name":"Fajar Hidayat","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":true,"move_in_date":"2022-06-01","move_out_date":null},
+  {"house_id":2,"full_name":"Nisa Hidayat","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":true,"move_in_date":"2022-06-01","move_out_date":null},
+
+  {"house_id":3,"full_name":"Agus Setiawan","status":"contract","phone_number":"082156789012","is_married":true,"is_active_resident":true,"move_in_date":"2024-01-10","move_out_date":null,"is_head_of_family":true},
+  {"house_id":3,"full_name":"Rina Wulandari","status":"contract","phone_number":"082156789013","is_married":true,"is_active_resident":true,"move_in_date":"2024-01-10","move_out_date":null},
+
+  {"house_id":5,"full_name":"Hendra Wijaya","status":"permanent","phone_number":"085267890123","is_married":true,"is_active_resident":true,"move_in_date":"2021-08-20","move_out_date":null,"is_head_of_family":true},
+  {"house_id":5,"full_name":"Yuni Astuti","status":"permanent","phone_number":"085267890124","is_married":true,"is_active_resident":true,"move_in_date":"2021-08-20","move_out_date":null},
+  {"house_id":5,"full_name":"Rizki Wijaya","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":true,"move_in_date":"2021-08-20","move_out_date":null},
+  {"house_id":5,"full_name":"Putri Wijaya","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":true,"move_in_date":"2021-08-20","move_out_date":null},
+  {"house_id":5,"full_name":"Dimas Wijaya","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":true,"move_in_date":"2021-08-20","move_out_date":null},
+  {"house_id":5,"full_name":"Sari Wijaya","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":false,"move_in_date":"2021-08-20","move_out_date":"2025-12-01"},
+
+  {"house_id":6,"full_name":"Joko Prasetyo","status":"contract","phone_number":"087378901234","is_married":false,"is_active_resident":true,"move_in_date":"2025-02-01","move_out_date":null,"is_head_of_family":true},
+
+  {"house_id":8,"full_name":"Bambang Susilo","status":"permanent","phone_number":"089490123456","is_married":true,"is_active_resident":true,"move_in_date":"2020-11-05","move_out_date":null},
+  {"house_id":8,"full_name":"Kartini Susilo","status":"permanent","phone_number":"089490123457","is_married":true,"is_active_resident":true,"move_in_date":"2020-11-05","move_out_date":null},
+  {"house_id":8,"full_name":"Wahyu Susilo","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":true,"move_in_date":"2020-11-05","move_out_date":null},
+  {"house_id":8,"full_name":"Indah Susilo","status":"permanent","phone_number":"089490123458","is_married":false,"is_active_resident":true,"move_in_date":"2020-11-05","move_out_date":null},
+  {"house_id":8,"full_name":"Teguh Susilo","status":"permanent","phone_number":null,"is_married":false,"is_active_resident":false,"move_in_date":"2020-11-05","move_out_date":"2024-07-15"},
+  {"house_id":8,"full_name":"Sri Mulyani","status":"permanent","phone_number":"089490123459","is_married":true,"is_active_resident":true,"move_in_date":"2024-08-01","move_out_date":null}
+]
