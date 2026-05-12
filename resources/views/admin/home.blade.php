@@ -12,29 +12,37 @@
       </div>
 
       {{-- Summary Cards --}}
-      <div class="row g-4 mb-8">
-        <div class="col-md-3 col-6">
-          <div class="border rounded p-4 text-center h-100" style="border-left: 4px solid #8e62a9 !important;">
-            <p class="text-muted mb-1 fs-7">Saldo Kas</p>
-            <h4 class="fw-bold mb-0 {{ $saldoKas >= 0 ? 'text-dark' : 'text-danger' }}">Rp {{ number_format($saldoKas, 0, ',', '.') }}</h4>
+      <div class="row mb-5">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="card bg-light-primary">
+            <div class="card-body text-center">
+              <h6 class="text-muted">Saldo Kas</h6>
+              <h2 class="fw-bolder h1 {{ $saldoKas >= 0 ? 'text-dark' : 'text-danger' }}">Rp {{ number_format($saldoKas, 0, ',', '.') }}</h2>
+            </div>
           </div>
         </div>
-        <div class="col-md-3 col-6">
-          <div class="border rounded p-4 text-center h-100" style="border-left: 4px solid #50cd89 !important;">
-            <p class="text-muted mb-1 fs-7">Pemasukan Bulan Ini</p>
-            <h4 class="fw-bold mb-0 text-success">Rp {{ number_format($incomeThisMonth, 0, ',', '.') }}</h4>
+        <div class="col-12 col-md-3 mb-3">
+          <div class="card bg-light-success">
+            <div class="card-body text-center">
+              <h6 class="text-muted">Pemasukan Bulan Ini</h6>
+              <h2 class="fw-bolder text-success h1">Rp {{ number_format($incomeThisMonth, 0, ',', '.') }}</h2>
+            </div>
           </div>
         </div>
-        <div class="col-md-3 col-6">
-          <div class="border rounded p-4 text-center h-100" style="border-left: 4px solid #f1416c !important;">
-            <p class="text-muted mb-1 fs-7">Pengeluaran Bulan Ini</p>
-            <h4 class="fw-bold mb-0 text-danger">Rp {{ number_format($expenseThisMonth, 0, ',', '.') }}</h4>
+        <div class="col-12 col-md-3 mb-3">
+          <div class="card bg-light-danger">
+            <div class="card-body text-center">
+              <h6 class="text-muted">Pengeluaran Bulan Ini</h6>
+              <h2 class="fw-bolder text-danger h1">Rp {{ number_format($expenseThisMonth, 0, ',', '.') }}</h2>
+            </div>
           </div>
         </div>
-        <div class="col-md-3 col-6">
-          <div class="border rounded p-4 text-center h-100" style="border-left: 4px solid #ffc700 !important;">
-            <p class="text-muted mb-1 fs-7">Tagihan Belum Lunas</p>
-            <h4 class="fw-bold mb-0">{{ $unpaidCount }}</h4>
+        <div class="col-12 col-md-3 mb-3">
+          <div class="card bg-light-warning">
+            <div class="card-body text-center">
+              <h6 class="text-muted">Tagihan Belum Lunas</h6>
+              <h2 class="fw-bolder text-warning h1">{{ number_format($unpaidCount, 0, ',', '.') }}</h2>
+            </div>
           </div>
         </div>
       </div>

@@ -58,6 +58,7 @@ class DatabaseSeeder extends Seeder
         // Seed Fee Types
         FeeType::create(['name' => 'Satpam', 'amount' => 100000, 'is_active' => true]);
         FeeType::create(['name' => 'Kebersihan', 'amount' => 15000, 'is_active' => true]);
+        FeeType::create(['name' => 'Perbaikan', 'amount' => 50000, 'is_active' => true]);
 
         // Seed Expense Categories
         ExpenseCategory::create(['name' => 'Gaji Satpam', 'is_recurring' => true]);
@@ -65,5 +66,8 @@ class DatabaseSeeder extends Seeder
         ExpenseCategory::create(['name' => 'Perbaikan Jalan', 'is_recurring' => false]);
         ExpenseCategory::create(['name' => 'Perbaikan Selokan', 'is_recurring' => false]);
         ExpenseCategory::create(['name' => 'Lain-lain', 'is_recurring' => false]);
+
+        // Seed Payment Bills, Payments, and Expenses
+        $this->call(PaymentBillSeeder::class);
     }
 }

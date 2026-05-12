@@ -10,9 +10,11 @@
       <!--begin::Heading-->
       <div class="col-12 d-flex flex-wrap align-items-center gap-2 mb-5">
         <h1 class="me-auto anchor fw-bolder mb-0" id="striped-rounded-bordered">Tagihan Bulanan</h1>
-        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambah">Tambah</button>
-        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#generate"><i class="mdi mdi-refresh me-1"></i>Generate Tagihan</button>
-        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#payBulk"><i class="mdi mdi-cash-multiple me-1"></i>Bayar Bulk</button>
+        <div class="col-12 col-md-6 d-flex" style="zoom: 80%;">
+          <button class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#tambah">Tambah</button>
+          <button class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#generate"><i class="mdi mdi-refresh me-1"></i>Generate Tagihan</button>
+          <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#payBulk"><i class="mdi mdi-cash-multiple me-1"></i>Bayar Bulk</button>
+        </div>
       </div>
       <!--end::Heading-->
 
@@ -60,14 +62,14 @@
         <table id="myTable" class="table table-striped table-hover table-rounded border gs-7">
           <thead>
             <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
-              <th style="width: 30px">No</th>
-              <th>Rumah</th>
-              <th>Penghuni</th>
-              <th>Jenis Iuran</th>
-              <th>Bulan</th>
-              <th style="width: 90px">Nominal</th>
-              <th style="width: 100px">Status</th>
-              <th style="width: 130px">Action</th>
+              <th style="min-width: 30px">No</th>
+              <th style="min-width: 100px">Rumah</th>
+              <th style="min-width: 200px">Penghuni</th>
+              <th style="min-width: 90px">Jenis Iuran</th>
+              <th style="min-width: 100px">Bulan</th>
+              <th style="min-width: 90px">Nominal</th>
+              <th style="min-width: 100px">Status</th>
+              <th style="min-width: 130px">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -81,7 +83,7 @@
               </td>
               <td>{{ $b->feeType->name ?? '-' }}</td>
               <td>{{ \Carbon\Carbon::parse($b->billing_month)->translatedFormat('F Y') }}</td>
-              <td>Rp. {{ number_format($b->amount, 0, ',', '.') }}</td>
+              <td>Rp {{ number_format($b->amount, 0, ',', '.') }}</td>
               <td>
                 @if($b->status == 'paid')
                   <span class="badge bg-success">Lunas ({{ $b->payment->payment_method }})</span>

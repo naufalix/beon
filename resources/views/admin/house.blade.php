@@ -18,13 +18,13 @@
         <table id="myTable" class="table table-striped table-hover table-rounded border gs-7">
           <thead>
             <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
-              <th style="width: 30px">No</th>
-              <th>Nomor dan alamat</th>
+              <th style="min-width: 30px">No</th>
+              <th style="min-width: 200px">Nomor dan alamat</th>
               <th style="min-width: 150px">Kepala Keluarga</th>
-              <th style="width: 100px">Status</th>
-              <th style="width: 120px">Penghuni Aktif</th>
-              <th style="width: 140px">Terakhir diupdate</th>
-              <th style="width: 90px">Action</th>
+              <th style="min-width: 100px">Status</th>
+              <th style="min-width: 120px">Penghuni Aktif</th>
+              <th style="min-width: 140px">Terakhir diupdate</th>
+              <th style="min-width: 90px">Action</th>
             </tr>
           </thead>
           <tbody>

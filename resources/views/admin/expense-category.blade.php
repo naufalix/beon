@@ -18,11 +18,11 @@
         <table id="myTable" class="table table-striped table-hover table-rounded border gs-7">
           <thead>
             <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
-              <th style="width: 30px">No</th>
-              <th>Nama Kategori</th>
-              <th style="width: 100px">Tipe</th>
-              <th style="width: 140px">Terakhir diupdate</th>
-              <th style="width: 80px">Action</th>
+              <th style="min-width: 30px">No</th>
+              <th style="min-width: 120px">Nama Kategori</th>
+              <th style="min-width: 100px">Tipe</th>
+              <th style="min-width: 140px">Terakhir diupdate</th>
+              <th style="min-width: 80px">Action</th>
             </tr>
           </thead>
           <tbody>

@@ -46,12 +46,12 @@
         <table class="table table-striped table-hover table-rounded border gs-7">
           <thead>
             <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
-              <th style="width: 30px">No</th>
-              <th>Rumah</th>
-              <th>Jenis Iuran</th>
-              <th>Nominal</th>
-              <th>Tgl Bayar</th>
-              <th>Metode</th>
+              <th style="min-width: 30px">No</th>
+              <th style="min-width: 100px">Rumah</th>
+              <th style="min-width: 120px">Jenis Iuran</th>
+              <th style="min-width: 120px">Nominal</th>
+              <th style="min-width: 160px">Tgl Bayar</th>
+              <th style="min-width: 100px">Metode</th>
             </tr>
           </thead>
           <tbody>
@@ -93,11 +93,11 @@
         <table class="table table-striped table-hover table-rounded border gs-7">
           <thead>
             <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
-              <th style="width: 30px">No</th>
-              <th>Kategori</th>
-              <th>Nominal</th>
-              <th>Tanggal</th>
-              <th>Keterangan</th>
+              <th style="min-width: 30px">No</th>
+              <th style="min-width: 120px">Kategori</th>
+              <th style="min-width: 120px">Nominal</th>
+              <th style="min-width: 160px">Tanggal</th>
+              <th style="min-width: 250px">Keterangan</th>
             </tr>
           </thead>
           <tbody>

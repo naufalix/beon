@@ -37,8 +37,8 @@
         <table id="myTable" class="table table-striped table-hover table-rounded border gs-7">
           <thead>
             <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
-              <th style="width: 30px">No</th>
-              <th>Keterangan</th>
+              <th style="min-width: 30px">No</th>
+              <th style="min-width: 200px">Keterangan</th>
               <th style="min-width: 160px">Kategori</th>
               <th style="min-width: 100px">Nominal</th>
               <th style="min-width: 150px">Tanggal</th>

@@ -16,6 +16,16 @@
       <div class="menu menu-column menu-title-gray-800 menu-arrow-gray-500 menu-hover-primary" id="#kt_docs_aside_menu" data-kt-menu="true">
         
         <div class="menu-item">
+          <h4 class="menu-content text-muted mb-0 fs-7 text-uppercase">Menu</h4>
+        </div>
+        <div class="menu-item">
+          <a class="menu-link py-2" href="/admin/">
+            <span class="menu-title menu-icon"><i class="mdi mdi-monitor-dashboard fs-2"></i> Dashboard</span>
+          </a>
+        </div>
+        <br>
+
+        <div class="menu-item">
           <h4 class="menu-content text-muted mb-0 fs-7 text-uppercase">Data Master</h4>
         </div>
         <div class="menu-item">
