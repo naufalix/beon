@@ -7,8 +7,6 @@ use App\Http\Controllers\Admin\AdminHome;
 use App\Http\Controllers\Admin\AdminHouse;
 use App\Http\Controllers\Admin\AdminResident;
 use App\Http\Controllers\Admin\AdminOffice;
-use App\Http\Controllers\Admin\AdminUser;
-use App\Http\Controllers\Admin\AdminReport;
 use App\Http\Controllers\Admin\AdminFeeType;
 use App\Http\Controllers\Admin\AdminExpenseCategory;
 use App\Http\Controllers\Admin\AdminPaymentBill;
@@ -28,14 +26,7 @@ Route::get('/logout', [AdminAuthController::class, 'logout']);
 Route::group(['prefix'=> 'admin','middleware'=>['auth:admin']], function(){
     Route::get('/', [AdminHome::class, 'index']);
     Route::get('/home', [AdminHome::class, 'index']);
-    Route::get('/office', [AdminOffice::class, 'index']);
-    Route::get('/user', [AdminUser::class, 'index']);
-    Route::get('/user/{user:id}', [AdminReport::class, 'report']);
     
-    Route::post('/office', [AdminOffice::class, 'postHandler']);
-    Route::post('/user', [AdminUser::class, 'postHandler']);
-    Route::post('/user/{user:id}', [AdminReport::class, 'report']);
-
     Route::get('/house', [AdminHouse::class, 'index']);
     Route::post('/house', [AdminHouse::class, 'postHandler']);
 
